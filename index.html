@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <title>Coding Dojo em Cuiabá, Mato Grosso.</title>
+   <meta charset="utf-8">
+   <meta name="description" content=""/>
+   <meta name="keywords" content=""/>
+   <meta name="author" content=""/>
+   <link rel="stylesheet" href="./css/style.css?v=120320112158"/>
+</head>
+<body>
+   <div id="wrapper">
+
+      <div id="header" class="vertical stripes">
+         <div class="grid_wrapper">
+
+            <ul id="navigation_menu">
+               <li class="item"><a href="#header">O que é um Dojo?</a></li>
+               <li class="item"><a href="#explanation">Como funciona?</a></li>
+               <li class="item"><a href="#how_to_contact">Participar!</a></li>
+            </ul>
+            <!-- nav -->
+
+            <div id="main_text">
+               <h1 id="dojo_title" title="Coding Dojo (lê-se dojô)">Coding Dojo</h1>  
+               <p>
+                  é um espaço onde programadores <strong>se reúnem para
+                     treinar e aprender</strong>. As reuniões são periódicas e 
+                     centradas em um desafio de programação. Apesar 
+                     do desafio, <strong>o objetivo não é terminar o problema.</strong>
+                  </p>
+                  <p>
+                     A ideia é aprender com as experiências vivenciadas
+                     pelo grupo.
+                  </p>
+                  <p>
+                     Assista ao vídeo ao lado, e clique no botão abaixo.
+                     Você não irá se arrepender ;)
+                  </p>
+                  <a href="#how_to_contact" class="join_btn">Quero participar!</a>
+               </div>
+               <!-- text -->
+
+               <div id="vimeo_video">
+                  <p>
+                     <iframe src="http://player.vimeo.com/video/20473572?color=66ab8d" width="400" height="225"></iframe>
+                  </p>
+                  <small>
+                     O vídeo é do pessoal do DojoRio, e pode ser conferido <a href="http://vimeo.com/20473572">aqui</a> ou <a href="http://henriquebastos.net/2011/03/02/trote-na-uff-dojorio-educacao-2-0/">aqui</a>.
+                  </small>
+               </div>
+               <!-- vimeo -->
+
+            </div>
+            <!-- grid wrapper -->
+         </div>
+         <!-- header -->
+
+         <div id="explanation">
+            <div class="grid_wrapper">
+
+               <div class="how_it_works">
+
+                  <h2>Como funciona?</h2>
+                  <p>
+                     <strong>Você deve estar se perguntando: </strong> <span>"Mas se o objetivo não é terminar o problema, para o quê é, então?"</span>
+                  </p>
+                  <p>
+                     Um Coding Dojo é um encontro onde um grupo de programadores se reúne para trabalhar em conjunto  em 
+                     um desafio de programação. Eles estão lá para se divertir e, através de uma metodologia pragmática, melhorar
+                     suas habilidades de programação e de trabalho em grupo.
+                  </p>
+               </div>
+               <div class="tdd">
+                  <h3>Desenvolvimento Guiado por testes</h3>
+                  <p class="dd_text">
+                     Antes de qualquer implementação, deve ser escrito um teste, que ao passar indica que a implementação está correta.
+                  </p>
+               </div>
+               <div class="baby_steps">
+                  <h3>Passos de Bebê</h3>
+                  <p class="dd_text">
+                     Se um teste não está passando, você deve escrever o código mais simples possível que faça
+                     o teste passar. Quando for escrever um novo teste para o mesmo método escreva um teste
+                     que teste só um pouquinho a mais da funcionalidade desejada.
+                  </p>
+               </div>
+               <div class="pair_programming">
+                  <h3>Programação em pares</h3>
+                  <div class="dd_text">
+                     A programação é feita em duplas. Cada dupla tem um piloto e um co-piloto.  Ambos pensam em
+                     como passar no teste atual, mas só o piloto digita. Cada par tem por volta de 5 a 10 minutos no seu turno.
+                     <h4>Quando um piloto acaba:</h4>
+                     <ul>
+                        <li>O piloto volta para a platéia;</li>
+                        <li>O co-piloto assume o lugar do piloto;</li>
+                        <li>Um novo co-piloto vem da platéia.</li>
+                     </ul>
+                  </div>
+               </div>
+               <!-- end definition list -->
+
+               <div class="to_understand">
+                  <h3>Todos devem entender</h3>
+                  <p class="dd_text">
+                     O piloto e o co-piloto devem sempre explicar em voz alta  o que estão tentando fazer para solucionar o problema.
+                     Qualquer um na platéia pode pedir explicações se não entender algum raciocínio.
+                  </p>
+               </div>
+               <!-- to understand... -->
+
+               <div class="dojo_areas">
+                  <h3>Três fases</h3>
+                  <p>
+                     Um coding dojo está sempre  em alguma dessas 3 fases, dependendo do estado dos testes:
+                  </p>
+                  <p><img src="./img/tdd_cicles.png" width="375" height="301" alt="TDD Cicles" title="TDD Cicles"/></p>
+                  <div class="cicle_list">
+                     <dl class="definition_list_for_dojo">
+                        <dt>Vermelha</dt>
+                        <dd>
+                           Pelo menos um teste não está passando.
+                           A dupla da vez deve se concentrar em
+                           fazer o teste passar.  A platéia não deve 
+                           falar nessa fase, para não atrapalhar o
+                           piloto e o co-piloto.
+                        </dd>
+                     </dl>
+                     <dl class="definition_list_for_dojo green">
+                        <dt>Verde</dt>
+                        <dd>
+                           Os testes acabaram de serem rodados
+                           e todos estão passando. Essa é a hora 
+                           de quem está na platéia dar sugestões 
+                           para melhorar o código.
+                        </dd>
+                     </dl>
+                     <dl class="definition_list_for_dojo">
+                        <dt>Azul</dt>
+                        <dd>
+                           O código foi modificado de acordo
+                           com as sugestões, mas a bateria de
+                           testes ainda não foi rodada. Deve-se
+                           evitar fazer grandes modificações no
+                           código nessa fase.
+                        </dd>
+                     </dl>
+                  </div>
+               </div>
+               <!-- dojo areas -->
+            </div>
+            <!-- grid wrapper -->
+         </div>
+         <!-- explanation -->
+
+         <div id="how_to_contact">
+
+            <div class="grid_wrapper">
+               <h2>Quero participar!</h2>
+               <fieldset id="form_for_join">
+                  <p class="short_text">
+                     Você leu tudo acima e se interessou? Você se considera um desenvolvedor? 
+                     Se as respostas forem “sim”, preencha o formulário abaixo e aguarde nosso contato.
+                     <br/>
+                     <span class="alert">Estamos coletando dados de residentes no estado de <strong>Mato Grosso</strong>, mas sinta-se livre para preencher e encaminharemos ao grupo responsável.</span>
+                  </p>
+
+                  <form action="/" method="post" id="join_it" accept-charset="utf-8">
+                     <div id="message"></div>
+                     <div class="form_field">
+                        <label>
+                           Seu nome:
+                        </label>
+                        <input type="text" id="name" name="name" maxlength="130" value="Fulano da Silva"/>
+                     </div>
+                     
+                     <div class="form_field">
+                        <label>
+                           Seu e-mail:
+                        </label>
+                        <input type="text" id="mail" name="mail" value="exemplo@exemplo.com" maxlength="140"/>
+                     </div>
+
+                     <div class="form_field">
+                        <label>
+                           Linguagens (Ex.: Python, Ruby, Java): 
+                        </label>
+                        <input type="text" id="lang" name="lang" value="Máximo de três, separadas por vírgula" maxlength="100"/>
+                     </div>
+                     
+                     <div class="form_field">
+                        <label>
+                           Cidade (Ex.: Cuiabá, Mato Grosso):
+                        </label>
+                        <input type="text" id="city" name="city" value="Cidade. Por extenso (se aplicável)" maxlength="50"/>
+                     </div>
+                     
+                     <p><button type="submit" id="submit_btn">Estou interessado!</button></p>
+                     <p><a href="http://bit.ly/cvSFmI" id="cancel_btn" title="This will take you to a long trip...">Não, obrigado.</a></p>
+                  </form>
+
+               </fieldset>
+               <div id="facebook_like"> 
+                  <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script> 
+                  <fb:like href="http://www.facebook.com/pages/Weblexia/157622424291571" layout="button_count" show_faces="true" font="trebuchet ms"></fb:like>  
+               </div>
+            </div>
+            <!-- grid wrapper -->
+
+         </div>
+         <!-- contact -->
+
+      </div>
+      <!-- wrapper -->
+      <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+      <script src="./js/app.js?v=120320112243"></script>
+   </body>
+   </html>
